@@ -1,0 +1,111 @@
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+    
+}
+/* .xyz{
+    display: inline;
+    width: 70px;
+    height: 10px;
+} */
+body{
+    background-color: black;
+   
+}
+.abc{
+    border-radius: 75%;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ padding-bottom: 0px; 
+    background-color: red;
+}
+h1, p, h2 {
+    color: white;
+    text-align: center;
+    font-family:initial;
+    text-shadow : crimson;
+    box-shadow: bisque;
+    font-size:40px;
+}
+
+
+ul{
+    list-style-type:none;
+    display:flex;
+    flex-wrap: wrap;;
+}
+
+.card_main {
+    height: 150px;
+    width: 350px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+}
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.card_name span {
+    font-size: 15px;
+
+}
+
+.card_total {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 30px;
+    text-shadow: rgb(13, 30, 16) 15px 15px 15px;
+    box-shadow: rgb(13, 30, 16) 15px 15px 15px;
+    
+
+}
+#ab{
+    background-color: rgb(21, 206, 191);
+    color: white;
+
+}
+#cd{
+    background-color: rgba(209, 227, 13, 0.825);
+    color:white ;
+
+}
+#ef{
+    background-color: rgba(132, 241, 23, 0.813);
+    color:white ;
+
+}
+#gh{
+    background-color: rgb(128, 0, 81);
+    color: white;
+
+}
+#ij{
+    background-color: rgb(0, 124, 128);
+    text-shadow:rgba(255, 255, 255, 0.852) ;
+
+}
+#kl{
+    background-color:coral(128, 4, 0);
+    color:white ;
+
+
+}
+li:hover{
+    transform: scale(1.15);
+    border-color: aqua;
+    
+}
+.card_inner{
+    border:10px 40px white;
+   
+}
